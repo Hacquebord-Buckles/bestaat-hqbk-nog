@@ -1,0 +1,25 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+ __                                       ()     _ __              _
+( /  /                    /           /   /\    ( /  )        /   //
+ /--/ __,  _, _,  , , _  /  __ _   __/   (  X    /--< , , _, /<  // _  (
+/  /_(_/(_(__(_/_(_/_(/_/_)(_)/ (_(_/_    \/ \  /___/(_/_(__/ |_(/_(/_/_)_
+              /|
+             (/
+
+  Made with love by Hacquebord & Buckles
+  Site: www.hacquebordbuckles.nl
+  Twitter: @hacqbuck
+  E-Mail: info@hacquebordbuckles.nl
+  Location: Leeuwarden, The Netherlands
+
+  Shawn Buckles
+  Twitter: @shawnbuckles
+  E-Mail: shawn@hacquebordbuckles.nl
+
+  Roald Hacquebord
+  Twitter: @afroald
+  E-Mail: roald@hacquebordbuckles.nl
