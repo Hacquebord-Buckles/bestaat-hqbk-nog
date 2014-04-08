@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bestaat Hacquebord &amp; Buckles nog?</title>
-        <meta name="description" content="Bestaat Hacquebord &amp; Buckles nog?">
+        <meta name="description" content="Alle informatie die je nodig hebt.">
 
         <link rel="stylesheet" href="css/style.css">
     </head>
