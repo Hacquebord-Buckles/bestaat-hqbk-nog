@@ -33,6 +33,7 @@ body {
 
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
+    font-weight: 200;
 }
 
 .container {
@@ -77,6 +78,7 @@ section p {
     color: rgb(149,165,166);
     text-align: center;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .answer {
