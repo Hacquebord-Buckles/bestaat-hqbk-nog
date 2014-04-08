@@ -5,25 +5,40 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bestaat Hacquebord &amp; Buckles nog?</title>
         <meta name="description" content="Bestaat Hacquebord &amp; Buckles nog?">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
-    <?php
-        $answers = array(
-            'Ja',
-            'Nee',
-            'Misschien',
-            'Weten we niet',
-            'Waarschijnlijk',
-            'Wellicht',
-            'Wat vind je zelf?'
-        );
+        <section class="question">
+            <div class="container">
+                <p>
+                    <span>Bestaat</span> <a href="http://www.hacquebordbuckles.nl" target="_blank">Hacquebord &amp; Buckles</a> <span>nog?</span>
+                </p>
+            </div>
+        </section>
 
-        echo $answers[array_rand($answers)];
-    ?>
+        <section class="answer">
+            <div class="container">
+                <p>
+                    <?php
+                        $answers = array(
+                            'Ja.',
+                            'Nee.',
+                            'Misschien.',
+                            'Weten we niet.',
+                            'Waarschijn-lijk.',
+                            'Wellicht.',
+                            'Wat vind je zelf?',
+                            'Uitgesloten.',
+                            'Geen denken aan.'
+                        );
+
+                        echo $answers[array_rand($answers)];
+                    ?>
+                </p>
+            </div>
+        </section>
 
     </body>
 </html>

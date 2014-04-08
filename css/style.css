@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Thin-webfont.eot');
+    src: url('../fonts/RobotoSlab-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Thin-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Thin-webfont.svg#roboto_slabthin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Optimus Princeps';
+    src: url('../fonts/OptimusPrinceps.eot');
+    src: url('../fonts/OptimusPrinceps.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OptimusPrinceps.woff') format('woff'),
+         url('../fonts/OptimusPrinceps.ttf')  format('truetype'),
+         url('../fonts/OptimusPrinceps.svg#7optimus-princeps') format('svg');
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+    background-color: rgb(149,165,166);
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+section {
+    box-sizing: border-box;
+
+    font-size: 1.3em;
+}
+
+section p {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.question {
+    height: 50%;
+}
+
+.question p {
+    position: absolute;
+    bottom: 15px;
+}
+
+.question span {
+    display: block;
+    margin: 5px 0;
+}
+
+.question a {
+    display: inline-block;
+    padding: 10px 12px 6px;
+
+    background-color: rgb(44,62,80);
+
+    font-family: 'Optimus Princeps', serif;
+    color: rgb(149,165,166);
+    text-align: center;
+    text-decoration: none;
+}
+
+.answer {
+    padding: 15px;
+
+    background-color: rgb(44,62,80);
+
+    color: rgb(149,165,166);
+    font-size: 2em;
+}
+
+@media (min-width: 675px) {
+    .container {
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    section {
+        min-height: 50%;
+    }
+
+    .question {
+        font-size: 3em;
+    }
+
+    .question a {
+        display: block;
+    }
+
+    .question p {
+        text-align: left;
+    }
+
+    .question span:last-child {
+        text-align: right;
+    }
+
+    .answer {
+        font-size: 5.5em;
+    }
+}
