@@ -31,7 +31,13 @@
                             'Wellicht.',
                             'Wat vind je zelf?',
                             'Uitgesloten.',
-                            'Geen denken aan.'
+                            'Geen denken aan.',
+                            'Soms.',
+                            'In onze vrije tijd.',
+                            'Even aan de boekhouder vragen.',
+                            'Computer says no.',
+                            'Never gonna give you up, Never gonna let you down',
+                            'De geit is gemolken.'
                         );
 
                         echo $answers[array_rand($answers)];
